@@ -20,7 +20,7 @@ pip install shapes-geometry
 
 Example Usage 
 
-from shapes_geometry import circle, square, rectangle
+from shapes_geometry.shapes import circle, square, rectangle
 
 print(circle.area(5))           # Output: 78.53981633974483
 print(square.perimeter(4))      # Output: 16
