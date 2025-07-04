@@ -1,0 +1,10 @@
+def area(p,q):
+    return (p*q)/2
+def perimeter(side):
+    return 4*side
+def diagonal_p(q,area):
+    return 2*(area/q)
+def diagonal_q(p,area):
+    return 2*(area/p)
+def find_side(p,q):
+    return ((p**2)+(q**2)**0.5)/2
