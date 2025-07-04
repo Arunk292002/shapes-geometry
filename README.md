@@ -17,11 +17,14 @@
 
 ```bash
 pip install shapes-geometry
+```
 
-Example Usage 
+## Example Usage 
 
+```bash
 from shapes_geometry.shapes import circle, square, rectangle
 
 print(circle.area(5))           # Output: 78.53981633974483
 print(square.perimeter(4))      # Output: 16
 print(rectangle.area(10, 5))    # Output: 50
+```
