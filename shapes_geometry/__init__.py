@@ -19,6 +19,15 @@ from .shapes import (
     kite,
 )
 
+from .exceptions import (
+    ShapesGeometryError,
+    InvalidDimensionError,
+    InvalidCoordinateError,
+)
+
+# Package version
+__version__ = "0.1.4"
+
 __all__ = [
     "circle",
     "cube",
@@ -38,4 +47,8 @@ __all__ = [
     "semicircle",
     "pentagon",
     "kite",
+    # exceptions
+    "ShapesGeometryError",
+    "InvalidDimensionError",
+    "InvalidCoordinateError",
 ]

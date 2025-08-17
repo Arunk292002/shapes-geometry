@@ -13,15 +13,43 @@
 
 ---
 
+## 📌 Version History
+
+### v0.1.4 - Current Version
+- Added `utils.validate_positive_numbers()` for reusable validation.
+- Applied consistent dimension checks across shapes (circle, cylinder, etc.).
+- Improved exception handling with:
+  - `ShapesGeometryError`
+  - `InvalidDimensionError`
+  - `InvalidCoordinateError`
+
+### v0.1.3
+- Added support for more 2D and 3D shapes (parallelogram, trapezium, cone, etc.).
+- Introduced initial exception handling for invalid dimensions.
+
+### v0.1.2
+- Implemented core shapes: Circle, Square, Rectangle, Triangle, Cube, Sphere, Cylinder.
+- Added area, perimeter, surface area, and volume functions.
+
+### v0.1.1
+- Basic setup with `__init__.py`.
+- Organized shapes into modules.
+- First working release with Circle and Square.
+
+---
+
 ## 🚀 Installation
 
 ```bash
 pip install shapes-geometry
+```
 
-Example Usage 
+## Example Usage 
 
-from shapes_geometry import circle, square, rectangle
+```bash
+from shapes_geometry.shapes import circle, square, rectangle
 
 print(circle.area(5))           # Output: 78.53981633974483
 print(square.perimeter(4))      # Output: 16
 print(rectangle.area(10, 5))    # Output: 50
+```

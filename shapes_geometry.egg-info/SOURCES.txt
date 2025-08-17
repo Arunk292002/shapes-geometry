@@ -3,6 +3,8 @@ README.md
 setup.py
 shapes_geometry/__init__.py
 shapes_geometry/__main__.py
+shapes_geometry/exceptions.py
+shapes_geometry/utils.py
 shapes_geometry.egg-info/PKG-INFO
 shapes_geometry.egg-info/SOURCES.txt
 shapes_geometry.egg-info/dependency_links.txt

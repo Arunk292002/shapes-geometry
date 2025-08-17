@@ -1,5 +1,7 @@
 from shapes_geometry.shapes import circle
+from shapes_geometry.exceptions import InvalidDimensionError
 
-if __name__ == "__main__":
-    c = circle.area(5)
-    print(f"Circle with radius 5 has area: {c}")
+try:
+    print(circle.area(-2))
+except InvalidDimensionError as e:
+    print("Error:", e)   # short clean message for users

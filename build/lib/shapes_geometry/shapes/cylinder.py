@@ -1,15 +1,29 @@
-pi=3.141592653589793
+from shapes_geometry.utils import validate_positive_numbers,PI
+
 def volume(radius,height):
-    return pi*radius*height
+    validate_positive_numbers(radius=radius,height=height)
+    return PI*radius*height
+
 def diameter(height,Volume):
-    return 2*((Volume/(pi*height))**0.5)
+    validate_positive_numbers(height=height,volume=volume)
+    return 2*((Volume/(PI*height))**0.5)
+
 def surface_area(radius,height):
-    return (2*pi*radius*height)+(2*pi*(radius**2))
+    validate_positive_numbers(radius=radius,height=height)
+    return (2*PI*radius*height)+(2*PI*(radius**2))
+
 def base_area(radius):
-    return pi*(radius**2)
+    validate_positive_numbers(radius=radius)
+    return PI*(radius**2)
+
 def lateral_surface(radius,height):
-    return 2*pi*radius*height
+    validate_positive_numbers(radius=radius,height=height)
+    return 2*PI*radius*height
+
 def find_radius(height,ls):
-    return ls/(2*pi*height)
+    validate_positive_numbers(height=height,ls=ls)
+    return ls/(2*PI*height)
+
 def find_height(radius,ls):
-    return ls/(2*pi*radius)
+    validate_positive_numbers(radius=radius,ls=ls)
+    return ls/(2*PI*radius)
