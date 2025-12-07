@@ -1,21 +1,25 @@
-# 📐 shapes_geometry
+# shapes_geometry
 
 `shapes_geometry` is a lightweight Python package for performing geometry calculations for common 2D and 3D shapes. It provides simple functions to compute area, perimeter, volume, surface area, and other geometric properties — perfect for students, educators, and developers building math-related tools.
 
 ---
 
-## ✨ Features
+## Features
 
-- 📏 **2D Shapes:** Circle, Triangle, Square, Rectangle, Parallelogram, Rhombus, Trapezium, Kite, Semicircle, Regular Polygons (Pentagon, Hexagon, Octagon, Decagon)
-- 📦 **3D Shapes:** Sphere, Cube, Cuboid, Cone, Cylinder
-- 🧠 Simple API with functional structure (no classes)
-- 🛠️ Easy to extend and integrate into other Python projects
+- **2D Shapes:** Circle, Triangle, Square, Rectangle, Parallelogram, Rhombus, Trapezium, Kite, Semicircle, Regular Polygons (Pentagon, Hexagon, Octagon, Decagon)
+- **3D Shapes:** Sphere, Cube, Cuboid, Cone, Cylinder
+- Simple API with functional structure (no classes)
+- Easy to extend and integrate into other Python projects
 
 ---
 
 ## 📌 Version History
 
-### v0.1.4 - Current Version
+### v0.1.5 - Current Version
+- Added `utils.validate_positive_numbers()` for reusable validation.
+- Added Geometric Calculations for Capsule.
+
+### v0.1.4
 - Added `utils.validate_positive_numbers()` for reusable validation.
 - Applied consistent dimension checks across shapes (circle, cylinder, etc.).
 - Improved exception handling with:
@@ -38,7 +42,7 @@
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ```bash
 pip install shapes-geometry

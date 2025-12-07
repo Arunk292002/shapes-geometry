@@ -1,6 +1,6 @@
 from shapes_geometry.exceptions import InvalidDimensionError
 
-PI=3.141592653589793
+PI = 3.141592653589793
 
 def validate_positive_numbers(**kwargs):
     """
@@ -10,6 +10,8 @@ def validate_positive_numbers(**kwargs):
         validate_positive_numbers(radius=5, height=10)
     """
     for name, value in kwargs.items():
+        if isinstance(value, bool):
+            raise InvalidDimensionError(f"{name.capitalize()} must be a numeric value (int or float).")
         if not isinstance(value, (int, float)):
             raise InvalidDimensionError(f"{name.capitalize()} must be a numeric value (int or float).")
         if value <= 0:

@@ -10,6 +10,7 @@ shapes_geometry.egg-info/SOURCES.txt
 shapes_geometry.egg-info/dependency_links.txt
 shapes_geometry.egg-info/top_level.txt
 shapes_geometry/shapes/__init__.py
+shapes_geometry/shapes/capsule.py
 shapes_geometry/shapes/circle.py
 shapes_geometry/shapes/cone.py
 shapes_geometry/shapes/cube.py
