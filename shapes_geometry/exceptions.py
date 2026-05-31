@@ -8,3 +8,6 @@ class InvalidDimensionError(ShapesGeometryError):
 
 class InvalidCoordinateError(ShapesGeometryError):
     """Raised when coordinates are invalid or non-numeric."""
+
+class CalculationError(ShapesGeometryError):
+    """Raised when geometric calculations cannot be performed."""

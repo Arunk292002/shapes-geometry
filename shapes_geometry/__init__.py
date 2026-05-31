@@ -4,7 +4,9 @@ from .shapes import (
     cuboid,
     cone,
     cylinder,
+    ellipsoid,
     parallelogram,
+    polygon,
     rectangle,
     sphere,
     square,
@@ -16,6 +18,7 @@ from .shapes import (
     decagon,
     semicircle,
     pentagon,
+    torus,
     kite,
 )
 
@@ -47,6 +50,9 @@ __all__ = [
     "semicircle",
     "pentagon",
     "kite",
+    "torus",
+    "ellipsoid",
+    "polygon"
     # exceptions
     "ShapesGeometryError",
     "InvalidDimensionError",

@@ -15,7 +15,12 @@
 
 ## 📌 Version History
 
-### v0.1.5 - Current Version
+### v0.2 - Current Version
+- Added Torus and Ellipsoid Geometric Calculations.
+- Added Regular Polygon Calculations.
+- Added `CalculationError` which is raised when calculations cannot be performed.
+
+### v0.1.5
 - Added `utils.validate_positive_numbers()` for reusable validation.
 - Added Geometric Calculations for Capsule.
 
